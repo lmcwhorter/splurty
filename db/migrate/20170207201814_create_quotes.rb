@@ -3,7 +3,7 @@ class CreateQuotes < ActiveRecord::Migration
     create_table :quotes do |t|
 
       t.string :saying
-      t.string :author
+      t.string :translation
 
       t.timestamps
     end

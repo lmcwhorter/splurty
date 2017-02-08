@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 20170207201814) do
 
   create_table "quotes", force: true do |t|
     t.string   "saying"
-    t.string   "author"
+    t.string   "translation"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
